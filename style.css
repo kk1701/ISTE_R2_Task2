@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    background-color: #02001e;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    color: #fca311;
+    font-weight: 400;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.main-left, .main-right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#ques1:hover, #ques2:hover, #ques3:hover, #ques4:hover, #ques5:hover, #ques6:hover, #ques7:hover, #ques8:hover, #ques9:hover, #ques10:hover, #ques11:hover{
+    cursor: pointer;
+}
+@media screen and (max-width:700px){
+    body{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
